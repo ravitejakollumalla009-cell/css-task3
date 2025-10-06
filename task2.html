@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-model</title>
+    <link rel="icon" href="./related_pics/food_icon.png">
+    <style>
+        *{
+            background-color: whitesmoke;
+        }
+        .header{
+            color: saddlebrown;
+            text-align: center;
+        }
+        .ab,.bc{
+            /* flex-wrap: wrap; */
+            width: 300px;
+            text-align: center;
+            display: inline-block;
+            gap: 40px;
+            padding: 50px;
+
+        }
+        /* .ab p{
+            font-size: 14px;
+        } */
+        .ab img{
+            width: 350px;
+            height: 500px;
+        }
+        .bc img{
+            width: 350px;
+            height: 500px;
+        }
+        .xy{
+            margin: 0 60px 60px 0;
+            width: 1000px;
+        }
+        .blog-post{
+            display: inline-block;
+            align-items: center;
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .blog-post img{
+            margin-left: 240px;
+            width: 50px;
+        }
+        .st{
+            width: 600px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Food</h1>
+    </div>
+    
+    <div class="container_1" align="center">
+        <div class="ab">
+            <img src="./related_pics/sandwich.jpg" alt="A">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum  lipsum.</p>
+        </div>
+
+        <div class="ab">
+            <img src="./related_pics/steak.jpg" alt="B">
+            <h3> Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem praesent tincidunt lipsum.
+              what else</p>
+        </div>
+
+        <div class="ab">
+            <img src="./related_pics/cherries.jpg" alt="C">
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div class="ab">
+            <img src="./related_pics/wine.jpg" alt="D">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum.</p>
+        </div>
+    </div>
+
+    <h1> &nbsp;</h1>
+    <div class="container_2" align="center">
+        <div class="bc">
+            <img src="./related_pics/popsicle.jpg" alt="A">
+            <h3>All I Need Is a Popsicle</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div class="bc">
+            <img src="./related_pics/salmon.jpg" alt="B">
+            <h3>Salmon For Your Skin</h3>
+            <p>Once again, some random text to lorem praesent tincidunt lipsum.</p>
+        </div>
+
+        <div class="bc">
+            <img src="./related_pics/sandwich (1).jpg" alt="C">
+            <h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text, lorem ipsum tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div class="bc">
+            <img src="./related_pics/croissant.jpg" alt="D">
+            <h3>Le French</h3>
+            <p>lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+    </div>
+    <h2 align="center"> &nbsp;<<  1 2 3 4 &nbsp; >> </h2><hr>
+
+    <div class="color">
+        <h1 align="center">About Me, The Food Man</h1>
+        <center><img src="./related_pics/chef.jpg" alt="A" width="1000">
+        <h2>I am Who I Am!</h2>
+        <i><big>With Passion For Real, Good Food</big></i>
+        <p>&nbsp;</p>
+        <p class="xy"><big>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an 
+            interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent 
+            tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue 
+            gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, 
+            porta lectus vitae, ultricies congue gravida diam non fringilla.</big></p>
+        </center>
+    </div>
+    <h1>&nbsp;</h1><hr>
+
+    <div class="footer">
+        <center>
+            <div class="st">
+                <h2>About us</h2>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, 
+                    ultricies congue gravida diam non fringilla.</p>
+            </div>
+            <div class="st" style="display: inline-block;">
+                <h2>BLOG POSTS</h2>
+                <center>                
+                <div class="blog-post">
+                <img src="./related_pics/workshop.jpg" alt="b" width="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p><big>Lorem</big></p>
+                </div>
+                <div class="blog-post">
+                <img src="./related_pics/gondol.jpg" alt="b" width="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p><big>Ipsum</big></p>
+                </div>
+                </center>
+
+            </div>
+            <div class="st">
+                    <h2>POPULAR TAGS</h2>
+                <button>#Hyderabad</button>&nbsp;<button>#Bangalore</button><br><button>#Delhi</button>&nbsp;<button>#Mumbai</button>&nbsp;<button>#Chennai</button>&nbsp;
+                <button>#Kochi</button>
+            </div>
+
+        </center>
+    </div>
+    <center>
+    <p>In partnership with</p>
+    <div class="mn">
+    <img src="./related_pics/facebook.jpeg" alt="a" width="50">
+    <img src="./related_pics/instagram.jpeg" alt="b" width="50">
+    <img src="./related_pics/twitter.png" alt="b" width="50">
+    <img src="./related_pics/swiggy.png" alt="b" width="75">
+    <img src="./related_pics/zomato.jpeg" alt="b" width="50">
+    </div>
+    </center>
+</body>
+</html>
